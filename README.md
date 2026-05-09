@@ -31,6 +31,9 @@ export FIRECRAWL_API_KEY="fc-..."
 
 # 5. Run the pipeline
 python pipeline.py "I want to build a sentiment classifier for tweets that runs on mobile"
+
+# Or try this example (time-series forecasting):
+python pipeline.py "I want to predict stock prices using historical data and news sentiment for a trading bot"
 ```
 
 Results are saved to `output/result.json` and printed to stdout.
